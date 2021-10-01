@@ -25,12 +25,12 @@ void setup() {
     i[n] = int(random(81, 91));
     println(a[n], b[n], c[n], d[n], e[n], f[n], g[n], h[n], i[n]);
   }
-  noLoop();
 }
 
 void draw() {
-  background(0);
+  if(frameCount == 1){
   gridMake(50, 100);
+  }
 }
 
 void gridMake(int x, int y) {

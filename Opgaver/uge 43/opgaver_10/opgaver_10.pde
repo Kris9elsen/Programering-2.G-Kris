@@ -12,7 +12,7 @@ else
 String str1 =  "ja";
 
 //checker om str2 er = "ja"
-if (str1.equals("ja"))
+if (str1 =="ja")
   //Hvis str2 er = "ja" printer den dette
   println ("Det gør den!");
 else

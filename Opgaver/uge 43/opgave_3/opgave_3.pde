@@ -5,25 +5,21 @@ int b = 0;
 int n = 0;
 while (n < str.length()) {
   char a = str.charAt(n);
-  if (a == 'e') {
-    println(a);
+  if (a == 'e' || a == 'E') {
+    print(a);
     b++;
-  }
-  if (n == str.length()-1) {
-    println(b);
   }
   n++;
 }
+println(b);
 
 //for loop
 int c = 0;
-for(int i = 0; i < str.length(); i++){
-  char d = str.charAt(i);
-  if(d == 'e'){
-    println(d);
+
+for (int i = 0; i < str.length(); i++) {
+  if (str.charAt(i) == 'e' || str.charAt(i) =='E') { //Johannes er bøsse
+    print(str.charAt(i));
     c++;
   }
-  if(i == str.length()-1){
-    println(c);
-  }
 }
+println(c);

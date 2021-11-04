@@ -1,4 +1,4 @@
-int[] date = {22, 24, 60 ,60};
+int[] date = {21, 23, 59 ,60};
 
 void setup() {
   size(500, 500);

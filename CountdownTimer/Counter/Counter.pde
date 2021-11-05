@@ -13,7 +13,6 @@ void draw() {
   int m = date[2] - minute();
   int s = date[3] - second();
 
-
   String date = d + "-" + h + "-" + m + "-" + s;
   textAlign(CENTER, CENTER);
   textSize(width/7.14);

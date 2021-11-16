@@ -1,14 +1,47 @@
 int [][] numbers = new int [3][9];
+int col = 0;
 
-void setup() {
+void setup() { //<>//
   size(1000, 450);
+  int time = 0;
+  int time1 = 10;
 
-  for (int i = 0; i <= 8; i++) {
-    for (int n = 0; n <= 2; n++) {
-      numbers[n][i] = int(random(1, 91));
+  for (int i = 0; i < 9; i++) {
+    generate(time, time1);
+    col++;
+    time = time + 10;
+    time1 = time1 + 10;
+    if (col == 8) time1++;
+  }
+}
+
+void generate(int x, int y) {
+  for (int i = 0; i < 3; i++) {
+    numbers[i][col] = int(random(x, y)); //<>//
+    if (i > 0) {
+      while (numbers[i-1][col] == numbers[i][col])
+      numbers[i][col] = int(random(x, y));
+    }
+    if (i > 1) {
+      while (numbers[i-2][col] == numbers[i][col] || numbers[i-1][col] == numbers[i][col])
+      numbers[i][col] = int(random(x, y));
     }
   }
-  printArray(numbers);
+  if (numbers[0][col] > numbers[1][col]){
+    int temp = numbers[0][col];
+    numbers[0][col] = numbers[1][col];
+    numbers[1][col] = temp;
+  }
+  if (numbers[1][col] > numbers[2][col]){
+    int temp = numbers[1][col];
+    numbers[1][col] = numbers[2][col];
+    numbers[2][col] = temp;
+  }
+  if (numbers[0][col] > numbers[1][col]){
+    int temp = numbers[0][col];
+    numbers[0][col] = numbers[1][col];
+    numbers[1][col] = temp;
+  }
 }
 
 void draw() {

@@ -3,7 +3,7 @@ int col = 0;
 
 void setup() { //<>//
   size(1000, 450);
-  int time = 0;
+  int time = 1;
   int time1 = 10;
 
   for (int i = 0; i < 9; i++) {
@@ -11,6 +11,7 @@ void setup() { //<>//
     col++;
     time = time + 10;
     time1 = time1 + 10;
+    if (col == 1) time--;
     if (col == 8) time1++;
   }
 }

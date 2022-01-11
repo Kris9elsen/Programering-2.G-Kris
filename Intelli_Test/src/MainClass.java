@@ -1,29 +1,24 @@
-import processing.core.PApplet;
-import processing.net.*;
-
-public class MainClass extends PApplet {
+public class MainClass {
     public static void main(String[] args) {
-        PApplet.main("MainClass");
-    }
+        boolean peter = false;
+        int jeppe = 10;
+        float kris = (float) 0.0001;
+        char bogstav = 65;
+        byte b = 1;
 
-    Server s;
-    Client c;
-    String input;
-
-    public void settings() {
-        size(200, 200);
-    }
-
-    public void setup() {
-        background(0);
-        s = new Server(this, 12345);
-    }
-
-    public void draw() {
-        c = s.available();
-        if (c != null) {
-            input = c.readString();
-            print(input);
+        while (!peter) {
+            for (int i = 0; i < jeppe; i++) {
+                if (bogstav == 'A') {
+                    kris = kris + b;
+                    System.out.println(kris);
+                }
+            }
+            if ( kris > 10 ) {
+                peter = true;
+            }
         }
+
     }
+
 }
+

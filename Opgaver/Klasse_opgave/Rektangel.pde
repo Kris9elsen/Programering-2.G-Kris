@@ -1,10 +1,10 @@
-class Firkant {
+class Rektangel {
   // klassens attributter/ tilstand
   float x, y;
   int r, g, b;
 
   //konstroktøren
-  Firkant() {
+  Rektangel() {
     this.x = random(600);
     this.y = random(400);
   }
@@ -17,10 +17,9 @@ class Firkant {
     this.g = (int) random(1, 256);
     this.b = (int) random(1, 256);
   }
-
-  // tegn firkant på canvas
-  void drawFirkant() {
+  
+  void drawRect() {
     fill(r, g, b);
-    square(x, y, y);
+    rect(x, y, x, y);
   }
 }

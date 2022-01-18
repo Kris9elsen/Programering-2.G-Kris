@@ -1,4 +1,7 @@
 Firkant f;
+Cirkel c;
+Rektangel r;
+Trekant t;
 
 void setup() {
   size (600, 400);
@@ -6,18 +9,26 @@ void setup() {
 }
 
 void draw() {
-  // initiering af objektet f
+  // initiering af objekteter f, c, r, t
   f = new Firkant();
-  //Vælg farve R, G, B 'max 255'
+  c = new Cirkel();
+  r = new Rektangel();
+  t = new Trekant();
+  
+  // Tegner objekter
+  // Tegner firkant
   f.farve();
-  // tegner firkanten på canvas
   f.drawFirkant();
-  //Vælg farve R, G, B 'max 255'
-  f.farve();
-  // Tegn cirkel på canvas
-  f.drawCircle();
-  f.farve();
-  f.drawRect();
-  f.farve();
-  f.drawTriangle();
+  
+  // Tegner cirkel
+  c.farve();
+  c.drawCircle();
+  
+  // Tegner rektangel
+  r.farve();
+  r.drawRect();
+  
+  // Tegner trekant
+  t.farve();
+  t.drawTriangle();
 }

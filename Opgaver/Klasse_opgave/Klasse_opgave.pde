@@ -10,26 +10,30 @@ void setup() {
 }
 
 void draw() {
-  // initiering af objekteter f, c, r, t
-  f = new Firkant();
-  c = new Cirkel();
-  r = new Rektangel();
-  t = new Trekant();
-  
+
+  // Vælger figur
+  int figur = (int) random(1, 5);
+
   // Tegner objekter
-  // Tegner firkant
-  f.farve();
-  f.drawFirkant();
-  
-  // Tegner cirkel
-  c.farve();
-  c.drawCircle();
-  
-  // Tegner rektangel
-  r.farve();
-  r.drawRect();
-  
-  // Tegner trekant
-  t.farve();
-  t.drawTriangle();
+  if (figur == 1) {
+    // Tegner firkant
+    f = new Firkant();
+    f.farve();
+    f.drawFirkant();
+  } else if (figur == 2) {
+    // Tegner cirkel
+    c = new Cirkel();
+    c.farve();
+    c.drawCircle();
+  } else if (figur == 3) {
+    // Tegner rektangel
+    r = new Rektangel();
+    r.farve();
+    r.drawRect();
+  } else if (figur == 4) {
+    // Tegner trekant
+    t = new Trekant();
+    t.farve();
+    t.drawTriangle();
+  }
 }

@@ -9,15 +9,15 @@ void draw() {
   // initiering af objektet f
   f = new Firkant();
   //Vælg farve R, G, B 'max 255'
-  f.farve(200, 100, 10);
+  f.farve();
   // tegner firkanten på canvas
   f.drawFirkant();
   //Vælg farve R, G, B 'max 255'
-  f.farve(10, 200, 100);
+  f.farve();
   // Tegn cirkel på canvas
   f.drawCircle();
-  f.farve(200, 10, 100);
+  f.farve();
   f.drawRect();
-  f.farve(100, 100, 100);
+  f.farve();
   f.drawTriangle();
 }

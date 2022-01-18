@@ -5,8 +5,8 @@ class Cirkel {
 
   //konstroktøren
   Cirkel() {
-    this.x = random(600);
-    this.y = random(400);
+    this.x = random(width);
+    this.y = random(height);
   }
 
   // klassens metoder

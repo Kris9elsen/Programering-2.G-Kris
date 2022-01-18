@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d23153-6b07-4e1c-88c1-748ed7f43394" name="Changes" comment="" />
+    <list default="true" id="013accb4-a25f-44da-8bc2-e6d777fff599" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="23HArCeeOvMFzGCbJOcqfpmmT8y" />
+  <component name="ProjectId" id="23YWFNs9NdbKm8WjcAheLgGpOAg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,14 +32,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../../../Program Files (x86)/processing-3.5.4/modes/java/libraries/net/library/net.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.26666668" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunManager">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="Intelli_Test" />
+      <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -53,17 +52,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="46d23153-6b07-4e1c-88c1-748ed7f43394" name="Changes" comment="" />
-      <created>1641380845412</created>
+      <changelist id="013accb4-a25f-44da-8bc2-e6d777fff599" name="Changes" comment="" />
+      <created>1641911402743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1641380845412</updated>
-      <workItem from="1641380853848" duration="1938000" />
-      <workItem from="1641461450935" duration="1302000" />
-      <workItem from="1641470154572" duration="1894000" />
-      <workItem from="1641544681146" duration="1938000" />
-      <workItem from="1641907460696" duration="2651000" />
-      <workItem from="1641911300484" duration="95000" />
+      <updated>1641911402743</updated>
+      <workItem from="1641911404696" duration="564000" />
+      <workItem from="1642419702720" duration="354000" />
+      <workItem from="1642424937050" duration="4345000" />
+      <workItem from="1642507944617" duration="2386000" />
     </task>
     <servers />
   </component>

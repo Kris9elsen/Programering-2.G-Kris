@@ -4,6 +4,7 @@ Rektangel r;
 Trekant t;
 
 void setup() {
+  frameRate(10);
   fullScreen();
   background(0);
 }

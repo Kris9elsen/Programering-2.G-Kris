@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../../../Program Files (x86)/processing-3.5.4/modes/java/libraries/net/library/net.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.26666668" />
@@ -63,6 +63,7 @@
       <workItem from="1642507944617" duration="3198000" />
       <workItem from="1642515351538" duration="21000" />
       <workItem from="1643801116188" duration="2128000" />
+      <workItem from="1643889429130" duration="65000" />
     </task>
     <servers />
   </component>

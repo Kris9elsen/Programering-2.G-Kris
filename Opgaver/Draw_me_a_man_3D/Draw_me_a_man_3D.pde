@@ -47,7 +47,7 @@ void setup(){
 }
 
 void draw(){
-  ambientLight(255, 255, 255);
+  lights();
   background(50, 50, 50);
   translate(width/2, 650, -200);
   rotateY(radians(r));
